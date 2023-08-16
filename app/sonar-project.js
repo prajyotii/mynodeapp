@@ -3,7 +3,7 @@ ppconst sonarqubeScanner = require('sonarqube-scanner');
 sonarqubeScanner({
   serverUrl: 'http://localhost:9000/',
        options : {
-	    'sonar.projectDescription': 'Node JS application',
+	    'sonar.projectDescription': 'nodeapp',
 	    'sonar.projectName': 'nodeapp',
 	    'sonar.projectKey':'nodeapp',
 	    'sonar.login': 'squ_0d7d0736811f63df16408283e8cfd3695fdffb69',
